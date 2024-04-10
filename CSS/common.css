@@ -1,0 +1,98 @@
+
+/* 左侧部分 */
+.left {
+    width : 830px;
+    margin-left: 150px;
+    float: left;
+}
+
+/* 右侧部分 */
+.right {
+    width : 260px;
+    margin-right : 150 px;
+    float: left;
+}
+
+/* 顶部 */
+.navbar{
+    height :52px;
+    background-color: green;
+}
+
+.navbar .left{
+    height :52px;
+}
+
+.navbar .right {
+    height :52px;
+}
+
+.navbar .left ul{
+    line-height: 52px;
+}
+
+.navbar .left  a{
+    padding :16px;
+    font-size: 38px;
+    color: #fff;
+    font-family: 方正粗黑宋简体;
+}
+
+/* 衣服文字栏 */
+.tops .hd,
+.unders .hd,
+.overcoat .hd,
+.dress .hd
+{
+    line-height: 80px;
+    margin:10px 20px 0;
+}
+
+.tops .bd li,
+.unders .bd li,
+.overcoat .bd li,
+.dress .bd li
+{
+    float: left;
+    width: 100px;
+    height: 150px;
+    margin: 0 10px 5px;
+}
+
+.tops .bd li:last-child,
+.unders .bd li:last-child,
+.overcoat .bd li:last-child,
+.dress .bd li:last-child
+{
+    margin-right: 0;
+}
+
+.tops .bd li img,
+.unders .bd li img,
+.overcoat .bd li img,
+.dress .bd li img
+{
+    width: 100px;
+}
+
+.tops .bd li button,
+.unders .bd li button,
+.overcoat .bd li button,
+.dress .bd li button
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    height: 50px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(218, 209, 209);
+}
+
+.tops .bd li button:hover,
+.unders .bd li button:hover,
+.overcoat .bd li button:hover,
+.dress .bd li button:hover
+{
+    background-color: rgb(108, 103, 103);
+}
+

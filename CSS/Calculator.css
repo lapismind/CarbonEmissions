@@ -1,0 +1,47 @@
+.fixed-image1
+{
+    position: fixed;
+    top: 70px; /* 距离页面顶部的距离 */
+    right: 130px; /* 距离页面右侧的距离 */
+}
+
+.fixed-image2
+{
+    position: fixed;
+    top: 299px; /* 距离页面顶部的距离 */
+    right: 130px; /* 距离页面右侧的距离 */
+}
+
+img{
+    width: 150px;
+}
+
+.fixed-calculator{
+    position: fixed;
+    top: 560px;
+    right: 60px;
+}
+
+button{
+    margin: 10px 0;
+}
+
+select{
+    width: 200px; /* 设置宽度 */
+    height: 40px; /* 设置高度 */
+    font-size: 20px; /* 设置字体大小 */
+}
+
+.container-fluid{
+    float: left;
+    position: fixed;
+    margin-left: 30px;
+}
+
+.tops,
+.unders,
+.overcoat,
+.dress
+{
+    margin-left: 220px;
+}
