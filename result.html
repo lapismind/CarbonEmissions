@@ -34,6 +34,9 @@
     <div class="canvas-container">
       <canvas id="EmissionsPieChart"></canvas>
     </div>
+    <div>
+      <button class="return"><h1>返回</h1></button>
+    </div>
 
     <br><br>
     <!--文本框-->
@@ -67,6 +70,10 @@
           const distance=emissions/0.041;
           document.querySelector(".tips").textContent="您排放的二氧化碳相当于汽车行驶"+distance.toFixed(2)+"千米";
 
+          document.querySelector('.return').addEventListener('click', function() {
+            window.location.href = './Calculator.html';
+          });
+
           // 配置项
           const options = {
             responsive: true,
@@ -84,5 +91,8 @@
           });
         })         
       </script>
+      <div>
+        <img src="Images/tips.png" alt="">
+      </div>
   </body>
 </html>

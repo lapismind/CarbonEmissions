@@ -1,0 +1,62 @@
+.container{
+    position: fixed;
+    top: 30px;
+    right: 30px; 
+}
+
+.chara{
+    position: relative;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chara img{
+    width: 100%;
+    height: 100%;
+}
+
+.clothes-tops{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.clothes-bottoms{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.clothes-outerwears{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.clothes-dresses{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.clothes-tops img{
+    height: 100%;
+    mix-blend-mode: normal;
+}
+
+.clothes-bottoms img{
+    height: 100%;
+    mix-blend-mode: normal;
+}
+
+.clothes-outerwears img{
+    height: 100%;
+    mix-blend-mode: normal;
+}
+
+.clothes-dresses img{
+    height: 100%;
+    mix-blend-mode: normal;
+}
