@@ -5,11 +5,12 @@ img{
 
 .fixed-calculator{
     position: fixed;
-    top: 560px;
+    top: 550px;
     right: 60px;
 }
 
 button{
+    display: inline-block;
     margin: 10px 0;
 }
 
@@ -22,7 +23,8 @@ select{
 .container-fluid{
     float: left;
     position: fixed;
-    margin-left: 30px;
+    top: 220px;
+    margin-left: 20px;
 }
 
 .tops,
@@ -35,7 +37,22 @@ select{
 
 body
 {
-    background-image: url('../Images/背景3.jpg'); 
+    background-image: url('../Images/背景5.jpg'); 
     background-size: cover;
     background-attachment: fixed;
+}
+
+.button-container1{
+    text-align: center;
+    width: 100px;
+}
+
+.button-container2{
+    text-align: center;
+    width: 200px;
+}
+
+.adapt{
+    margin: 18px 0;
+    font-size: 22px;
 }

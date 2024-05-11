@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>衣碳究竟</title>
-    <link rel="stylesheet" href="./css/form.css">
+    <!-- 网页logo -->
+    <link rel="icon" href="Images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./CSS/form.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <script src="./JS/jquery-3.7.1.js"></script>
+    <script src="./JS/popper.min.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="head">
@@ -26,10 +32,29 @@
     <div class="tipEnd">
     </div>
 
-    <a href="./Calculator.html">
+    <a id="Calculator" href="./Calculator.html">
     <div class="bottom">
         开始计算碳足迹
     </div>
     </a>
+
+    <div id="additional-content">
+        <p>Learn More About Carbon Emissions<a id="help" href="https://www.ceads.net.cn/"> CEADs </a>
+            <a id="help" href="https://zh.wikipedia.org/wiki/%E7%A2%B3%E8%B6%B3%E8%B7%A1"> 碳足迹维基 </a>
+            <a id="help" href="https://baike.so.com/doc/5912790-6125701.html"> 碳足迹360百科 </a></p>
+    </div>
+
+    <div id="gif-container" >
+        <img id="gif" 
+        data-toggle="popover"
+        data-placement = "top" 
+        title="博士，你好！" 
+        data-content = ""
+        src="Images/amiya.gif" ;
+        width=300;
+        height=166;>
+    </div>
+  
+    <script src="JS/form.js"></script>     
 </body>
 </html>

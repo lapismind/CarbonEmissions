@@ -40,7 +40,7 @@
   }
 
 body{
-    background-image: url('../Images/结果背景.jpg'); 
+    background-image: url('../Images/背景4.jpg'); 
     background-size: cover;
     background-attachment: fixed;
 }
@@ -52,8 +52,9 @@ img{
 }
 
 .return {
-  position: fixed;
-  bottom: 20px;
+  position: absolute;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }

@@ -1,0 +1,15 @@
+body,button,input,select,textarea,.button-container2 button {
+    font-family: customFont0, sans-serif;
+}
+
+.hd {
+    font-family: customFont1, sans-serif !important;
+}
+
+.wrapper ul a,.adapt{
+    font-family: customFont2, sans-serif !important;
+}
+
+.row label,.navbar .left ul a {
+    font-family: customFont3, sans-serif !important;
+}

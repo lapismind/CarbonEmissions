@@ -12,6 +12,12 @@ $(document).ready(function() {
             case '2':
                 imgSrc = 'Animate/tops/polo衫.png';
                 break;    
+            case '3':
+                imgSrc = 'Animate/tops/T恤.png';
+                break;
+            case '4':
+                imgSrc = 'Animate/tops/T恤.png';
+                break;
             case '5':
                 imgSrc = 'Animate/tops/衬衣.png';
                 break;
@@ -72,6 +78,24 @@ $(document).ready(function() {
             case '6':
                 imgSrc = 'Animate/bottoms/牛仔裤.png';
                 break;
+            case '7':
+                imgSrc = 'Animate/bottoms/运动长裤.png';
+                break;
+            case '8':
+                imgSrc = 'Animate/bottoms/运动长裤.png';
+                break;
+            case '9':
+                imgSrc = 'Animate/bottoms/运动长裤.png';
+                break;
+            case '10':
+                imgSrc = 'Animate/bottoms/运动短裤.png';
+                break;
+            case '11':
+                imgSrc = 'Animate/bottoms/运动短裤.png';
+                break;
+            case '12':
+                imgSrc = 'Animate/bottoms/牛仔短裤.png';
+                break;
             case '13':
                 imgSrc = 'Animate/bottoms/短裙.png';
                 break;    
@@ -83,6 +107,24 @@ $(document).ready(function() {
                 break;
             case '16':
                 imgSrc = 'Animate/bottoms/短裙.png';
+                break;
+            case '17':
+                imgSrc = 'Animate/bottoms/半身裙.png';
+                break;
+            case '18':
+                imgSrc = 'Animate/bottoms/半身裙.png';
+                break;
+            case '19':
+                imgSrc = 'Animate/bottoms/半身裙.png';
+                break;
+            case '20':
+                imgSrc = 'Animate/bottoms/半身裙.png';
+                break;
+            case '21':
+                imgSrc = 'Animate/bottoms/吊带裙.png';
+                break;
+            case '22':
+                imgSrc = 'Animate/bottoms/吊带裙.png';
                 break;
         }
 
@@ -99,6 +141,21 @@ $(document).ready(function() {
         // 根据选项值设置图片路径
         var imgSrc = 'Animate/transparent.png';
         switch (outerwearValue) {
+            case '1':
+                imgSrc = 'Animate/outerwears/夹克.png';
+                break;
+            case '2':
+                imgSrc = 'Animate/outerwears/夹克.png';
+                break;
+            case '3':
+                imgSrc = 'Animate/outerwears/夹克.png';
+                break;
+            case '4':
+                imgSrc = 'Animate/outerwears/夹克.png';
+                break;
+            case '5':
+                imgSrc = 'Animate/outerwears/夹克.png';
+                break;
             case '6':
                 imgSrc = 'Animate/outerwears/西装外套.png';
                 break;
@@ -110,6 +167,24 @@ $(document).ready(function() {
                 break;
             case '9':
                 imgSrc = 'Animate/outerwears/西装外套.png';
+                break;
+            case '10':
+                imgSrc = 'Animate/outerwears/羽绒服.png';
+                break;
+            case '11':
+                imgSrc = 'Animate/outerwears/羽绒服.png';
+                break;
+            case '12':
+                imgSrc = 'Animate/outerwears/运动外套.png';
+                break;
+            case '13':
+                imgSrc = 'Animate/outerwears/运动外套.png';
+                break;
+            case '14':
+                imgSrc = 'Animate/outerwears/白色棉服.png';
+                break;
+            case '15':
+                imgSrc = 'Animate/outerwears/彩色棉服.png';
                 break;
             case '16':
                 imgSrc = 'Animate/outerwears/风衣.png';
@@ -136,13 +211,13 @@ $(document).ready(function() {
         var imgSrc = 'Animate/transparent.png';
         switch (dressValue) {
             case '1':
-                imgSrc = 'Animate/dresses/连衣裙.png';
+                imgSrc = 'Animate/dresses/丝绸长裙.png';
                 break;
             case '2':
-                imgSrc = 'Animate/dresses/连衣裙.png';
+                imgSrc = 'Animate/dresses/棉质长裙.png';
                 break;
             case '3':
-                imgSrc = 'Animate/dresses/连衣裙.png';
+                imgSrc = 'Animate/dresses/涤纶长裙.png';
                 break;
         }; 
 
@@ -159,10 +234,10 @@ $(document).ready(function() {
         // 切换图片路径
         if (currentCharacter === "Animate/female.png") {
             currentCharacter = "Animate/male.png";
-            $("#gender-btn").text("我是女生！");
+            $("#gender-btn").text("不对不对 我是女生！");
         } else {
             currentCharacter = "Animate/female.png";
-            $("#gender-btn").text("我是男生！");
+            $("#gender-btn").text("不对不对 我是男生！");
         }
 
         // 更新角色图片

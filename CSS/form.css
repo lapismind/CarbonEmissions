@@ -90,3 +90,33 @@ a{
     border: 0px;  
     transform: translateY(5px);
 }
+
+#additional-content {
+    position: relative;
+    bottom: 5px;
+    font-size: 15px;
+	color: #888;
+    text-align: center;
+    transition: color 0.3s;
+  }
+	
+#additional-content:hover {
+    color: #333; 
+  }
+
+a#help{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a#help:hover{
+    text-decoration-line: underline;
+    color: #23527c;
+}
+
+#gif-container {
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    cursor: pointer;
+  }
